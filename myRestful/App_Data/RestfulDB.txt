@@ -1,0 +1,21 @@
+CREATE DATABSE RestfulDB
+
+GO
+
+USE [RestfulDB]
+GO
+/****** Object:  Table [dbo].[Book]    Script Date: 2017/10/1 下午 08:22:32 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Book](
+	[Id] [int] NOT NULL,
+	[Name] [nvarchar](100) NOT NULL,
+	[Price] [int] NOT NULL,
+	[ImportDate] [datetime] NOT NULL,
+	[SaleNumber] [int] NOT NULL,
+	[Rank] [int] NOT NULL
+) ON [PRIMARY]
+
+GO
